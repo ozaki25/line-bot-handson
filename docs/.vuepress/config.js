@@ -8,6 +8,7 @@ module.exports = {
     lineNumbers: true,
   },
   plugins: {
+    '@vuepress/medium-zoom': {},
     '@vuepress/back-to-top': {},
     '@vuepress/pwa': {
       serviceWorker: true,
