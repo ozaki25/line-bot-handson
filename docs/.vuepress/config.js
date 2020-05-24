@@ -2,7 +2,7 @@ module.exports = {
   title: 'LINE Bot Handson',
   themeConfig: {
     domain: 'https://line-bot-handson.ozaki25.now.sh',
-    sidebar: ['/page1', 'page2', 'page3', 'page4', 'page5'],
+    sidebar: ['/page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
   },
   markdown: {
     lineNumbers: true,
