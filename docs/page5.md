@@ -58,7 +58,7 @@ sls -v
 
 - AWSにアクセスするためのキー情報を発行します
 - こちらの記事の手順に従って登録してください
-    - **あとでURLを記載する**
+    - [https://qiita.com/ozaki25/items/034f7f8e8ad69adceea7](https://qiita.com/ozaki25/items/034f7f8e8ad69adceea7)
 
 ### 応答メッセージの削除
 
