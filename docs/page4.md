@@ -12,7 +12,7 @@
 - 通常のWebページと同じように自由度高く作れるため、トーク画面から離脱せずによりインタラクティブな機能を提供できます
 - LIFFアプリをトーク画面に表示させるにはトーク画面内でLIFFアプリのURLにアクセスさせる必要があります
 
-![LIFFアプリの例](/line-bot-handson/images/4-1.png)
+![LIFFアプリの例](/images/4-1.png)
 
 ## 4-2.Webページの作成
 
@@ -30,17 +30,17 @@
     - [https://github.com/new](https://github.com/new)
 - 任意のリポジトリ名をセットして作成します
 
-![リポジトリ作成](/line-bot-handson/images/4-2.png)
+![リポジトリ作成](/images/4-2.png)
 
 ### ファイルの作成
 
 - リポジトリができたら`creating a new file`から新しいファイルを作成します
 
-![ファイル作成](/line-bot-handson/images/4-3.png)
+![ファイル作成](/images/4-3.png)
 
 - ファイル名は`index.html`で内容は以下のものをコピペしてください
 
-![html1](/line-bot-handson/images/4-4.png)
+![html1](/images/4-4.png)
 
 ```html
 <!DOCTYPE html>
@@ -86,39 +86,39 @@
 
 - コピペできたら`commit new file`を押して保存します
 
-![html2](/line-bot-handson/images/4-5.png)
+![html2](/images/4-5.png)
 
 ### Webページの公開
 
 - GitHub PagesというWebページを公開する機能の設定をします
 - `Settings`タブを選択します
 
-![settings](/line-bot-handson/images/4-6.png)
+![settings](/images/4-6.png)
 
 - 下の方にスクロールしていくとGitHub Pagesの項目があります
 - ボタンを押して`master branch`を選択してください
 
-![github pages settings](/line-bot-handson/images/4-7.png)
+![github pages settings](/images/4-7.png)
 
 - 設定が完了すると画面上部に以下のようなメッセージが表示されます
 
-![success](/line-bot-handson/images/4-8.png)
+![success](/images/4-8.png)
 
 ### 公開されたページの確認
 
 - `Code`タブに戻ると`environment`というメニューが追加されているのでそれを選択します
 
-![environment tab](/line-bot-handson/images/4-9.png)
+![environment tab](/images/4-9.png)
 
 - このページにはGitHub Pagesへのデプロイ履歴が表示されます
 - `View devloyment`を押すと公開されたページにアクセスできます
 
-![environment](/line-bot-handson/images/4-10.png)
+![environment](/images/4-10.png)
 
 - このようにリンク集のページが表示されているはずです
 - このページのURLは後の工程で使うため控えておいてください
 
-![handson links](/line-bot-handson/images/4-11.png)
+![handson links](/images/4-11.png)
 
 :::tip
 
@@ -138,32 +138,32 @@
 
 - 1章で作成したプロバイダーを選択し新規チャネルを作成します
 
-![チャネル作成1](/line-bot-handson/images/4-12.png)
+![チャネル作成1](/images/4-12.png)
 
 - チャネルの種類は`LINEログイン`を選択します
 
-![チャネル作成2](/line-bot-handson/images/4-13.png)
+![チャネル作成2](/images/4-13.png)
 
 - 必須項目に任意の値を設定して作成してください
 - アプリタイプは特に影響ないのでどちらにチェックしても構いません
 
-![チャネル作成3](/line-bot-handson/images/4-14.png)
+![チャネル作成3](/images/4-14.png)
 
 ### LIFFアプリの登録
 
 - `LIFF`タブを選択し`追加`から登録していきます
 
-![LIFF登録1](/line-bot-handson/images/4-15.png)
+![LIFF登録1](/images/4-15.png)
 
 - 必要事項をそれぞれ入力します
 
-![LIFF登録2](/line-bot-handson/images/4-16.png)
-![LIFF登録3](/line-bot-handson/images/4-17.png)
+![LIFF登録2](/images/4-16.png)
+![LIFF登録3](/images/4-17.png)
 
 - 完了するとURLが発行されます
     - 後で使うので控えておいてください
 
-![LIFF登録完了](/line-bot-handson/images/4-18.png)
+![LIFF登録完了](/images/4-18.png)
 
 ## 4-3.LIFFアプリにアクセスする
 
@@ -172,15 +172,15 @@
     - スマホからLINEのデベロッパーコンソールにアクセスしてコピペすると楽かも
         - [https://developers.line.biz/console/](https://developers.line.biz/console/)
 
-![LIFFアクセス1](/line-bot-handson/images/4-19.png)
+![LIFFアクセス1](/images/4-19.png)
 
 - 初回アクセス時は許可が求められます
 
-![LIFFアクセス2](/line-bot-handson/images/4-20.png)
+![LIFFアクセス2](/images/4-20.png)
 
 - WebページをLIFFアプリとしてトーク画面に埋め込むことができました
 
-![LIFFアクセス3](/line-bot-handson/images/4-21.png)
+![LIFFアクセス3](/images/4-21.png)
 
 ## 4-4.[任意]リッチメニューからLIFFアプリを起動してみる
 
@@ -189,13 +189,13 @@
 - [LINE Official Account Manager](https://manager.line.biz/)からリッチメニューを更新しましょう
 - 現在設定しているリッチメニューを`編集`から`ステータス`をオフに更新してから新しく作成しましょう
 
-![リッチメニュー作成1](/line-bot-handson/images/4-22.png)
+![リッチメニュー作成1](/images/4-22.png)
 
 - タップ時のアクションでLIFFアプリのURLをセットしておきます
 
-![リッチメニュー作成2](/line-bot-handson/images/4-23.png)
+![リッチメニュー作成2](/images/4-23.png)
 
 - 登録できたらスマホでLINEアプリを開いて動作確認してみましょう
 
-![LIFFアプリ起動](/line-bot-handson/images/4-24.gif)
+![LIFFアプリ起動](/images/4-24.gif)
 
