@@ -99,7 +99,7 @@ export const liff = window.liff;
 ```
 
 - LIFFを適用していきます
-- `src/App.js`を修正してください
+- `src/App.jsx`を修正してください
     - 丸ごと置き換えてしまってください
     - `liffId`は自分のIDをセットしてください
 
@@ -281,7 +281,7 @@ function useLiff({ liffId }) {
 export default useLiff;
 ```
 
-- `src/App.js`を修正して取得した情報を画面に出すようにします
+- `src/App.jsx`を修正して取得した情報を画面に出すようにします
 
 ```jsx{8-9,17-32}
 import React from 'react';
@@ -334,7 +334,7 @@ netlify deploy --prod --dir=build
 ## 6-4.リンク集も表示するようにする
 
 - 最後に4章と同じ内容も表示するようにしておきます
-- `src/App.js`を修正します
+- `src/App.jsx`を修正します
     - return文を修正しています
 
 ```jsx{16-43}
