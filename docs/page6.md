@@ -142,7 +142,13 @@ function useLiff({ liffId }) {
     try {
       // LIFF APIのinitを呼び出して初期化
       await liff.init({ liffId });
-      alert('success liff init');
+      if (liff.isLoggedIn()) {
+        console.log('logged in!');
+        alert('success liff init');
+      } else {
+        console.log('not logged in');
+        liff.login();
+      }
     } catch (error) {
       alert({ error });
       setError(error);
@@ -235,7 +241,13 @@ function useLiff({ liffId }) {
     try {
       // LIFF APIのinitを呼び出して初期化
       await liff.init({ liffId });
-      alert('success liff init');
+      if (liff.isLoggedIn()) {
+        console.log('logged in!');
+        alert('success liff init');
+      } else {
+        console.log('not logged in');
+        liff.login();
+      }
     } catch (error) {
       alert({ error });
       setError(error);
