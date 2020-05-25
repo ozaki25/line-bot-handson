@@ -27,7 +27,7 @@
 - 新しいプロバイダーを作成します
     - プロバイダーは公式アカウントの提供元として表示される名前です
 
-![プロバイダー](/images/1-1.png)
+![プロバイダー](/line-bot-handson/images/1-1.png)
 
 ::: warning
 プロバイダー名には`LINE`の文字列を含むことができないので注意
@@ -38,13 +38,13 @@
 - チャネルを作成することで公式アカウントが作成されます
 - MessagingAPIを選択してチャネルを作成していきます
 
-![チャネル1](/images/1-2.png)
+![チャネル1](/line-bot-handson/images/1-2.png)
 
 - 必要事項を入力していきます
 
-![チャネル2](/images/1-3.png)
-![チャネル3](/images/1-4.png)
-![チャネル4](/images/1-5.png)
+![チャネル2](/line-bot-handson/images/1-3.png)
+![チャネル3](/line-bot-handson/images/1-4.png)
+![チャネル4](/line-bot-handson/images/1-5.png)
 
 - これで公式アカウントが作成されました
 
@@ -54,12 +54,12 @@
 
 - チャネルが作成できると`Messaging API設定`タブでLINE IDとQRコードを確認できます
 
-![QR](/images/1-6.png)
+![QR](/line-bot-handson/images/1-6.png)
 
 - LINEアプリでQRコードを読み取るかID検索すると友だちに追加することができます
 
-![友だち登録](/images/1-7.png)
+![友だち登録](/line-bot-handson/images/1-7.png)
 
 - 友だち登録が完了したらこの章の内容は終了です
 
-![公式アカウント](/images/1-8.png)
+![公式アカウント](/line-bot-handson/images/1-8.png)

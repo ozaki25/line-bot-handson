@@ -10,41 +10,41 @@
 - APIサーバのURLをWebhook URLとして登録しておくことで、メッセージが送信された際にAPIが呼び出されるようになります
 - この構成ではAPIサーバの実装が必要となるため応用編として6章で解説します
 
-![構成1](/images/2-1.png)
+![構成1](/line-bot-handson/images/2-1.png)
 
 - 簡易的な応答であればLINEのデベロッパーコンソール上で設定することができます
 - この章ではこちらの手順を解説します
 
-![構成](/images/2-2.png)
+![構成](/line-bot-handson/images/2-2.png)
 
 ## 2-2.応答メッセージの登録
 
 - 設定は[LINE Official Account Manager](https://manager.line.biz/)から行います
 - アクセスしたら`アカウント`タブを選択し前章で作成した公式アカウントを選択します
 
-![official account manager](/images/2-3.png)
+![official account manager](/line-bot-handson/images/2-3.png)
 
 - `応答メッセージ`タブを選択し`作成`から新しい応答メッセージを登録していきます
 
-![応答メッセージ](/images/2-4.png)
+![応答メッセージ](/line-bot-handson/images/2-4.png)
 
 - キーワードを設定すると、その文言と完全一致するメッセージが送られたときのみに返答されるメッセージとなります
 - キーワードに`twitter`を登録しメッセージとしてtwitterのURLを設定してみましょう
 
-![応答メッセージの作成](/images/2-5.png)
+![応答メッセージの作成](/line-bot-handson/images/2-5.png)
 
 - 応答メッセージを登録できました
 
-![応答メッセージの登録完了](/images/2-6.png)
+![応答メッセージの登録完了](/line-bot-handson/images/2-6.png)
 
 - LINEを開いて友だち登録した公式アカウントとのトーク画面でメッセージを送ってみましょう
 
-![reply twitter](/images/2-7.png)
+![reply twitter](/line-bot-handson/images/2-7.png)
 
 - うまくいっていればtwitterのURLを教えてくれるようになっているはずです
 - 同じ要領で他の応答メッセージも登録してみましょう
 
-![他の応答メッセージの登録完了](/images/2-8.png)
+![他の応答メッセージの登録完了](/line-bot-handson/images/2-8.png)
 
 - これで送信されたキーワードに応じて応答メッセージを制御することができるようになりました
 
@@ -53,9 +53,9 @@
 - スマホでLINEアプリを開いて動作確認をしてみましょう
 - 登録したワードを送信するとリンクが応答されるようになりました
 
-![reply](/images/2-9.png)
+![reply](/line-bot-handson/images/2-9.png)
 
 - 応答メッセージ以外にもいろいろ設定できるので試してみると面白いです
 
-![メニュー](/images/2-10.png)
+![メニュー](/line-bot-handson/images/2-10.png)
 
