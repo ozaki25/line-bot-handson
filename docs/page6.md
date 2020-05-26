@@ -1,15 +1,13 @@
 # 6.[応用編]LIFFアプリを埋め込む
 
+- 4章ではプレーンなHTMLを作成してLIFFアプリとして埋め込みました
+- ですがより複雑なことをやろうとするとReactなどのライブラリを使ったほうができることは増えてきます
+- この章ではReactを使ったLIFFアプリの作り方を紹介します
+
 ## ゴール
 
 - Reactを使ってLIFFアプリを作成できること
 - LIFFアプリでLINEのユーザ情報にアクセスできること
-
-## 概要
-
-- 4章ではプレーンなHTMLを作成してLIFFアプリとして埋め込みました
-- ですがより複雑なことをやろうとするとReactなどのライブラリを使ったほうができることは増えてきます
-- この章ではReactを使ったLIFFアプリの作り方を紹介します
 
 ## 6-1.Reactアプリの雛形作成
 
@@ -226,7 +224,7 @@ netlify deploy --prod --dir=build
 - LIFFの機能を使ってLINEのユーザ情報にアクセスしてみます
 - `src/hooks/useLiff.js`を修正します
 
-```js{7-8,24-36,42-43}
+```js{7-8,29-41,47-48}
 import { useState, useEffect } from 'react';
 import { liff } from '../lib/liff';
 
@@ -243,7 +241,6 @@ function useLiff({ liffId }) {
       await liff.init({ liffId });
       if (liff.isLoggedIn()) {
         console.log('logged in!');
-        alert('success liff init');
       } else {
         console.log('not logged in');
         liff.login();
@@ -387,7 +384,7 @@ function App() {
 export default App;
 ```
 
-- CSSを適用するために`public/index.html`に一行追加します
+- CSSを適用するために`public/index.html`に二行追加します
 
 ```html{9-10}
 <!DOCTYPE html>
