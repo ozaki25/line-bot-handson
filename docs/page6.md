@@ -417,3 +417,10 @@ netlify deploy --prod --dir=build
 - スマホからアクセスすると4章と同じリンク集も表示されています
 
 ![links](/images/6-7.png)
+
+## 参考記事
+
+- この章の内容は以下の記事がベースになっていますので合わせて読んでみてください
+    - [【LINE】LIFFアプリを試してみる~セットアップまで~](https://qiita.com/ozaki25/items/5b3aedb80ab7c07618d2)
+    - [【LINE】LIFFアプリを試してみる~ユーザ情報の取得とトークへの送信~](https://qiita.com/ozaki25/items/63b9dd5e3bc2f9224b3e)
+    - [【LINE】LIFFアプリを試してみる~Webからトークにメッセージを送信する~](https://qiita.com/ozaki25/items/cc4c17cc25a0bf25f964)
