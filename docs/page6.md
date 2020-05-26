@@ -192,7 +192,12 @@ yarn build
 netlify deploy --prod --dir=build
 ```
 
-- いくつか尋ねられますがすべてそのままエンターでOKです
+- コマンドを実行するといくつか尋ねられます
+    - 1つめの質問は`Create & configure a new site`を選択します
+    - 2つめ以降はそのままエンター連打で大丈夫です
+
+![Netlify deploy1](/images/6-8.png)
+
 - 完了するとログの一番下にURLが表示されます
     - この後使うのでメモしておいてください
 
