@@ -1,3 +1,5 @@
+const dayjs = require('dayjs');
+
 module.exports = {
   title: 'LINE Bot Handson',
   themeConfig: {
@@ -8,6 +10,11 @@ module.exports = {
     lineNumbers: true,
   },
   plugins: {
+    '@vuepress/last-updated': {
+      transformer: (timestamp, lang) => {
+        return dayjs(timestamp).format('YYYY/MM/DD');
+      },
+    },
     '@vuepress/medium-zoom': {},
     '@vuepress/back-to-top': {},
     '@vuepress/pwa': {
